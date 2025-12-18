@@ -67,7 +67,7 @@ app.post('/create-draft-order', async (req, res) => {
           first_name: shipping_address?.first_name || customer?.first_name || '',
           last_name: shipping_address?.last_name || customer?.last_name || '',
           phone: shipping_address?.phone || customer?.phone || '',
-          address1: "Pickup/Digital",
+          address1: "",
           city: "Colombo", 
           country: "Sri Lanka"
         },
